@@ -1,51 +1,204 @@
 <!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <title>Oasit</title>
-  <base href="/">
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link rel="icon" type="image/png" href="assets/img/favicon.ico">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+        <title>Awesome Landing Page by Creative Tim</title>
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-  
+        <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+        <meta name="viewport" content="width=device-width" />
 
-  <!-- BOOTSTRAP -->
-  <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="assets/css/bootstrap.css" rel="stylesheet" />
+        <link href="assets/css/landing-page.css" rel="stylesheet"/>
+        <!--     Fonts and icons     -->
+        <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400,300' rel='stylesheet' type='text/css'>
+        <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
+    </head>
+    <body class="landing-page landing-page1">
+        <nav class="navbar navbar-ct-azzure navbar-fixed-top" role="navigation"
+            style="background-color: black;">
 
-  <!-- Optional theme -->
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">-->
+          <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+             
+              <a class="navbar-brand navbar-brand-logo" style="margin:0px" [routerLink]="['/']">
+                    
+                    
+                    <div class="brand">
+                        <img style="max-width:100px; margin-top: -20px;" src="assets/img/logo/logo2.jpg">
+                    </div>
+              </a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+              <ul class="nav navbar-nav">
 
-  <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
-  <link href="assets/css/ct-navbar.css" rel="stylesheet" />
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <button class="btn btn-round" 
+                                type="button"
+                                style="color:white;margin-bottom:5px;margin-top:5px">LOG-IN</button>
+                    </li>
 
-  <!--<link href="assets/css/gsdk.css" rel="stylesheet" />  -->
- 
-  <!-- JQUERY -->
-  <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+                    <li>
+                       <div class="brand" style="margin-top:3px">
+                            <span style="font-size:30px;cursor:pointer;color:white;margin-left:15px;margin-top:5px">☰</span>
+                            </div>
+                    </li>
+                    <li>
+                        <a style="margin:0px;padding:0px;margin-left:15px;">
+                            <i class="pe-7s-search" style="font-size: 24px;margin-left:25px;margin-top:5px"></i>
+                            <p style="font-size:12px;margin-bottom:3px">Find Properties</p>
+                        </a>
+                    </li>
+                    
+               </ul>
+               <!--<form class="navbar-form navbar-right navbar-search-form" role="search">
+                 <div class="form-group">
+                      <input type="text" value="" class="form-control" placeholder="Search...">
+                 </div>
+              </form>-->
 
-  <!-- Latest compiled and minified JavaScript -->
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <!-- ........ -->
+            </div>
+          </div>
+        </nav>
 
-  <script src="assets/js/ct-navbar.js"></script>
 
-  <script>
-  // function openNav() {
-  //     document.getElementById("mySidenav").style.width = "17%";
-  // }
 
-  // function closeNav() {
-  //     document.getElementById("mySidenav").style.width = "0";
-  // }
-  </script>
+        <div class="wrapper">
+            <div class="parallax filter-gradient orange" data-color="orange">
+                <div class="parallax-background">
+                    <img class="parallax-background-image" src="assets/img/showcases/showcase-3/bangkok3.jpg">
+                </div>
+                <div class= "container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div style="margin-top:200px;text-align:center;color:black">
+                                <div style="margin:0px;font-size:42px;">ONE DAY IN</div>
+                              
+                                <h1 style="margin:0px;"><b>BANGKOK</b></h1>
+                            </div>
+                        
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+            <div class="section section-gray section-clients" style="padding-top:0px;background-color:yellow;height:200px">
+                <div class="" style="padding-left:15%;height:35px;padding-top:5px;padding-right:15%;font-size:24px;"><b>What is POPPERTY?</b></div>
+                <div style="margin:0px;background-color:black;color:white;max-width:100%;height:150px;padding:25px;padding-left:15%;padding-right:15%">
+                    <p>
+                        เราคือ Platform ที่ให้บริการออนไลน์ที่เกี่ยวข้องกับอสังหาริมทรัพย์ ไม่ว่าจะเป็น การซื้อ-ขาย-เช่า, การประเมินมูลค่าทรัพย์สิน ตลอดจนถึงการขอสินเชื่อ รวนไว้ในที่เดียวเพื่อเพิ่มความสะดวกรวดเร็วให้กับผู้ใช้งานตั้งแต่จนกระบวนการใด้อย่างมีประสิทธิภาพ<br>
+                    </p>
+                </div>
+            </div>
 
-  
-</head>
-<body>
-  <app-root>Loading...</app-root>
-<script type="text/javascript" src="inline.bundle.js"></script><script type="text/javascript" src="styles.bundle.js"></script><script type="text/javascript" src="vendor.bundle.js"></script><script type="text/javascript" src="main.bundle.js"></script></body>
+             <div class="section section-no-padding" style="padding-top:0px;">
+                <div class="parallax filter-gradient orange" data-color="orange">
+                    <div class="parallax-background">
+                        <img class ="parallax-background-image flipped" src="assets/img/showcases/showcase-1/bg2.jpg">
+                    </div>
+                    <div class="info">
+                        <h1>WHAT'S YOUR HOME WORTH?</h1>
+                        <p>"บ้านคุณมูลค่าเท่าไหร่ ?"</p>
+                    </div>
+                         
+                </div>
+                <div class="" style="padding-left:15%;height:35px;padding-top:5px;padding-right:15%;font-size:24px;background-color:yellow;">
+                    <b>What POPPERTY?</b>
+                </div>
+            </div>
+
+            <div class="section section-features">
+                <div class="container">
+                    <h4 class="header-text text-center">Features</h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-musiclist"></i>
+                                </div>
+                                <div class="text">
+                                    <h4>Be serious about your music</h4>
+                                    <p>All appointments sync with your Google calendar so your availability is always up to date. See your schedule at a glance from any device.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-bell"></i>
+                                </div>
+                                <h4>Smart Notifications on hands</h4>
+                                <p>Automatic text and email reminders make sure customers always remember their upcoming appointments.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card card-orange">
+                                <div class="icon">
+                                    <i class="pe-7s-play"></i>
+                                </div>
+                                <h4>PlaIT on any devices</h4>
+                                <p>Take payments and run your business on the go, in your store and then see how it all adds up with analytics.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <footer class="footer">
+                <div class="container">
+                    <nav class="pull-left">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Company
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Portfolio
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                Blog
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="social-area pull-right">
+                        <a class="btn btn-social btn-facebook btn-simple">
+                        <i class="fa fa-facebook-square"></i>
+                        </a>
+                        <a class="btn btn-social btn-twitter btn-simple">
+                        <i class="fa fa-twitter"></i>
+                        </a>
+                        <a class="btn btn-social btn-pinterest btn-simple">
+                        <i class="fa fa-pinterest"></i>
+                        </a>
+                    </div>
+                    <div class="copyright">
+                        &copy; 2016 <a href="#">POPPERTY</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+
+    </div>
+    </body>
+    <script src="assets/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="assets/js/jquery-ui-1.10.4.custom.min.js" type="text/javascript"></script>
+    <script src="assets/js/bootstrap.js" type="text/javascript"></script>
+    <script src="assets/js/awesome-landing-page.js" type="text/javascript"></script>
 </html>
